@@ -1,0 +1,22 @@
+{
+  "name": "sample-playwright-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stat-tom/sample-playwright-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stat-tom/sample-playwright-lib/issues"
+  },
+  "homepage": "https://github.com/stat-tom/sample-playwright-lib#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1"
+  }
+}
