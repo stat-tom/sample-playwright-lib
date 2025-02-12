@@ -2,9 +2,9 @@ import { test, expect } from '@playwright/test';
 
 test('test', async ({ page }) => {
   await page.goto('https://spyro-soft.com/');
+  await page.getByRole('button', { name: 'Accept All' }).click();
   await page.locator('#menu-item-125157').getByRole('link', { name: 'Careers' }).click();
   await page.getByRole('link', { name: 'Browse open positions' }).click();
-  await page.getByRole('button', { name: 'Accept All' }).click();
   await page.getByText('Skills All skills .NET').click();
   await page.getByRole('checkbox', { name: 'QA' }).check();
   await page.goto('https://spyro-soft.com/career?area=all&skills=qa&location=all&experience=all');
